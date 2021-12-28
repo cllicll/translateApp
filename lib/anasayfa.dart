@@ -16,13 +16,7 @@ var firstColor = const Color(0xff220c33);
 var output;
 
 String? selectedValue;
-Map<String, String> items = {
-  'en': 'English',
-  'de': 'Germany',
-  'ru': 'Russia',
-  'es': 'Spain',
-  'fr': 'French'
-};
+List<String> items = ['en', 'de', 'ru', 'es', "fr"];
 
 class _AnasayfaState extends State<Anasayfa> {
   void translate() async {
